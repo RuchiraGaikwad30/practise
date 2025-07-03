@@ -9,35 +9,135 @@
 </head>
 <body>
   <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header" ;>
-        <a class="navbar-brand" href="#" style="font-family: 'Satisfy', cursive;" > Ink & Echo </a>
-      </div>
-      <ul class="nav navbar-nav navbar-center" style="font-family: 'Satisfy', cursive;">
-        <li><a href="index.html" style=>My Journal</a></li>
-        <li><a href="#aboutus">About Us</a></li>
-        <li><a href="index.html">Logout</a></li>
-      </ul>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-family: 'Satisfy', cursive;">Ink & Echo</a>
     </div>
-  </nav>
-  <table style="width: 100%;  font-family: 'Satisfy', cursive;">
-  
-    <tr>
-      <th style="font-family: 'Satisfy', cursive;"> Beach</th>
-      <th style="font-family: 'Satisfy', cursive;"> Mountains</th>
-      <th style="font-family: 'Satisfy', cursive;"> Forest</th>
-    </tr>
-    
-     <tr>
-      <th style="font-family: 'Satisfy', cursive;"> Meditation</th>
-      <th style="font-family: 'Satisfy', cursive;"> Yoga</th>
-      <th style="font-family: 'Satisfy', cursive;"> Reading</th>
-    </tr>
-    <tr>
-      <th style="font-family: 'Satisfy', cursive;"> Cooking</th>
-      <th style="font-family: 'Satisfy', cursive;"> Gardening</th>
-      <th style="font-family: 'Satisfy', cursive;"> Painting</th>
-  </table>
+    <ul class="nav navbar-nav navbar-center" style="font-family: 'Satisfy', cursive;">
+      <li><a href="index.html">My Journal</a></li>
+
+      <!-- Collections Dropdown -->
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archives <span class="caret" ></span></a>
+        <ul class="dropdown-menu" style="background-color: rgb(103,71,54)">
+          <li><a href="#Travel">Travel</a></li>
+          <li><a href="#Health">Health</a></li>
+          <li><a href="#Self-help">Self-help</a></li>
+          <li><a href="#Citygirl">City-Girl</a></li>
+          <li><a href="#CreativeSparks">Creativity</a></li>
+          <li><a href="#DIY">DIY</a></li>
+        </ul>
+      </li>
+
+      
+      <li><a href="index.html">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row" style="font-family: 'Satisfy', cursive;">
+<div class="row" style="font-family: 'Satisfy', cursive;">
+
+  <!-- Journal Card 1: Travel -->
+  <div class="col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Travel</h4>
+      </div>
+      <div class="panel-body">
+        <img src="travel.jpg"  alt="Travel" class="img-responsive" style="width:100%; height:200px;">
+        <p>Explore cities, coasts, and countryside. Reflect on adventures and preserve your wanderlust memories in one place.</p>
+        <a href="#" class="btn btn-primary btn-sm" style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 2: Health -->
+  <div class="col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Health</h4>
+      </div>
+      <div class="panel-body">
+        <img src="mindfulness.jpg" alt="Health" class="img-responsive" style="width:100%; height:200px;">  
+        <p>Track your physical and mental well-being, log workout routines, or reflect on your wellness journey.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 3: Self-Help -->
+  <div class="col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Self-Help</h4>
+      </div>
+      <div class="panel-body">
+        <img src="creativity.jpg" alt="Self-Help" class="img-responsive" style="width:100%; height:200px;">
+        <p>Empower your growth. Record affirmations, goals, struggles, and lessons learned along your self-improvement path.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 4: City-Girl -->
+  <div class="col-sm-4">    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>City-Girl</h4>
+      </div>
+      <div class="panel-body">
+        <img src="travel.jpg" alt="City-Girl" class="img-responsive" style="width:100%; height:200px;">
+        <p>Chronicle your urban lifestyle — fashion finds, city strolls, coffee shop thoughts, and late-night reflections.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 5: Creativity -->
+  <div class="col-sm-4">    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Creativity</h4>
+      </div>
+      <div class="panel-body">
+        <img src="travel.jpg" alt="Creativity" class="img-responsive" style="width:100%; height:200px;">
+        <p>Capture your ideas, doodles, poetry, short stories, or anything that fuels your imagination and expression.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 6: DIY -->
+  <div class="col-sm-4">    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>DIY</h4>
+      </div>
+      <div class="panel-body">
+        <img src="travel.jpg" alt="DIY" class="img-responsive" style="width:100%; height:200px;">
+        <p>Document your home projects, crafts, and handmade creations with step-by-step reflections and tips.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Journal Card 7: Memories -->
+  <div class="col-sm-4">    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Memories</h4>
+      </div>
+      <div class="panel-body">
+        <img src="travel.jpg" alt="Memories" class="img-responsive" style="width:100%; height:200px;">
+        <p>Preserve special moments — birthdays, firsts, milestones, or quiet mornings you never want to forget.</p>
+        <a href="#" class="btn btn-primary btn-sm"style="background-color:rgb(103,71,54) ;">Start journaling</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
   <section id="aboutus">
     <h1 style="text-align: left; font-family: 'Satisfy', cursive;">About us</h1>
